@@ -38,7 +38,8 @@ internal class Test {
     @ParameterizedTest(name = "{index}) When getPointsAndLevel({0}) is called then return '{1}'!")
     @MethodSource("getData")
     fun getPointsAndLevel_tests(points: Int, message: String) {
-        assertEquals(message, getPointsAndLevel(points))
+        assertEquals(message, getPointsAndLevelOriginal(points))
+        assertEquals(message, getPointsAndLevelSolution(points))
     }
 
 }

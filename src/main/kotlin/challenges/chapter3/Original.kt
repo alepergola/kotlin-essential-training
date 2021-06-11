@@ -3,7 +3,7 @@ package challenges.chapter3
 // TODO: replace this if with a when
 // bonus points for using ranges!
 
-fun getPointsAndLevel(cardPoints : Int) : String {
+fun getPointsAndLevelOriginal(cardPoints : Int) : String {
 
     val cardLevel: String = if (cardPoints >= 0 && cardPoints < 1000) {
         "pearl"
