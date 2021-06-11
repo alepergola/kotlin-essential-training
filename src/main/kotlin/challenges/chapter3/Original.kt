@@ -3,7 +3,7 @@ package challenges.chapter3
 // TODO: replace this if with a when
 // bonus points for using ranges!
 
-fun getPointsAndLevelOriginal(cardPoints : Int) : String {
+fun getPointsAndLevelOriginal(cardPoints: Int): String {
 
     val cardLevel: String = if (cardPoints >= 0 && cardPoints < 1000) {
         "pearl"
@@ -15,6 +15,6 @@ fun getPointsAndLevelOriginal(cardPoints : Int) : String {
         "platinum"
     }
 
-    val plural = if(cardPoints > 1 || cardPoints == 0) "s" else ""
+    val plural = if (cardPoints > 1 || cardPoints == 0) "s" else ""
     return ("You have $cardPoints point$plural and are at the $cardLevel level.")
 }
