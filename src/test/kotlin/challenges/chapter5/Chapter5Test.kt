@@ -22,7 +22,7 @@ internal class Chapter5Test {
             80.80,
             90.90
         )
-        private const val FILENAME = "resources/sales.txt";
+        private const val FILENAME = "./src/test/resources/sales.txt";
     }
 
 }
