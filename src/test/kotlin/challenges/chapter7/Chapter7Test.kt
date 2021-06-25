@@ -17,7 +17,18 @@ internal class Chapter7Test {
     }
 
     @Test
-    fun test() {
+    fun test_no_instance() {
+        assertEquals(0, Bosco.show())
+    }
+
+    @Test
+    fun test_one_instance() {
+        nop()
+        assertEquals(1, Bosco.show())
+    }
+
+    @Test
+    fun test_multiple_instance() {
         main()
         assertEquals(4, Bosco.show())
     }
