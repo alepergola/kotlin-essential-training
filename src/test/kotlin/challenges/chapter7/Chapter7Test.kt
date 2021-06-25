@@ -17,7 +17,7 @@ internal class Chapter7Test {
     }
 
     @Test
-    fun getPointsAndLevel_tests(expectedString: String, numberOfTimes: Int, stringToReplicate: String) {
+    fun test() {
         main()
         assertEquals(4, Bosco.show())
     }
