@@ -1,5 +1,6 @@
 package challenges.chapter7
 
+import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
 
@@ -14,6 +15,11 @@ internal class Chapter7Test {
         val b2 = Bosco()
         nop()
         val b3 = Bosco()
+    }
+
+    @BeforeEach
+    fun init(){
+        Bosco.reset()
     }
 
     @Test

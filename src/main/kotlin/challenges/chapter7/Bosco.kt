@@ -12,5 +12,9 @@ class Bosco {
         fun show(): Int {
             return INSTANCE_COUNTER
         }
+
+        fun reset() {
+            INSTANCE_COUNTER = 0
+        }
     }
 }
