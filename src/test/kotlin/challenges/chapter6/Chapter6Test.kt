@@ -18,6 +18,7 @@ internal class Chapter6Test {
                 Arguments.of("   \n   ", 2, "   "),
                 Arguments.of(TEST_STRING, 1, TEST_STRING),
                 Arguments.of("${TEST_STRING}\n${TEST_STRING}\n${TEST_STRING}", 3, TEST_STRING),
+                Arguments.of("${TEST_STRING}\n${TEST_STRING}\n${TEST_STRING}\n${TEST_STRING}\n${TEST_STRING}", 5, TEST_STRING),
             )
         }
     }
