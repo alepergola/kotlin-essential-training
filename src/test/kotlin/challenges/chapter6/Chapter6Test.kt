@@ -15,6 +15,7 @@ internal class Chapter6Test {
             return listOf(
                 Arguments.of("", 0, TEST_STRING),
                 Arguments.of("", 100, ""),
+                Arguments.of("   \n   ", 2, "   "),
                 Arguments.of(TEST_STRING, 1, TEST_STRING),
                 Arguments.of("${TEST_STRING}\n${TEST_STRING}\n${TEST_STRING}", 3, TEST_STRING),
             )
