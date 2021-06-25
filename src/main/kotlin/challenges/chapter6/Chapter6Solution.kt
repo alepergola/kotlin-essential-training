@@ -5,7 +5,8 @@ private fun replicate(func: (Int, String) -> String, numberOfTimes: Int, stringT
 }
 
 fun main(numberOfTimes: Int, stringToReplicate: String): String {
-    val replicateFunction = { number: Int, string: String -> "" }
+    val replicateFunction =
+        { number: Int, string: String -> (1..number).map { string }.filterNot { it.isEmpty() }.joinToString("\n") }
 
     return replicate(replicateFunction, numberOfTimes, stringToReplicate)
 }
