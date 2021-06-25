@@ -1,9 +1,11 @@
 package challenges.chapter6
 
-fun replicate(func: (Int, String) -> Unit) {
-    func(3, "Be Cool.")
+private fun replicate(func: (Int, String) -> String, numberOfTimes: Int, stringToReplicate: String): String {
+    return func(numberOfTimes, stringToReplicate)
 }
 
-fun main() {
-    // call replicate() here
+fun main(numberOfTimes: Int, stringToReplicate: String): String {
+    val replicateFunction = { number: Int, string: String -> "" }
+
+    return replicate(replicateFunction, numberOfTimes, stringToReplicate)
 }
