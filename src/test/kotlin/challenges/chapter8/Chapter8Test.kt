@@ -1,5 +1,7 @@
 package challenges.chapter8
 
+import kotlinx.coroutines.ExperimentalCoroutinesApi
+import kotlinx.coroutines.runBlocking
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
 
@@ -41,5 +43,14 @@ internal class Chapter8Test {
     fun test_all_lines() {
         assertEquals(TOTAL_LINES, readFile(FILENAME).lines().size)
     }
+
+    @Test
+    fun test_async() {
+        val result = runBlocking {
+            readFileAsync(FILENAME).await()
+        }
+        assertEquals(TOTAL_LINES, result.lines().size)
+    }
+
 
 }
