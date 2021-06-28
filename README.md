@@ -28,3 +28,6 @@ When the program begins, there should be zero. Each time we instantiate Bosco, t
 We aren't concerned about what happens if objects go out of scope. We only want to know how many instances of our Bosco class got instantiated.\
 Your implementation must include a show method that shows the number of instances created.\
 Test your class implementation against the provided code.
+
+### [Challenge Chapter 8](src/main/kotlin/challenges/chapter8)
+In the resources folder, there is a file, thewhale.txt, write a function to read the file asynchronously and return its text.
