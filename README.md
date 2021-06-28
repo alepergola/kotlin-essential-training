@@ -21,3 +21,10 @@ We've written a function named _replicate_. The function accepts as its sole par
 Read the function's definition and then create a function that matches the definition.\
 The function should print message to align ones for each value of count. So if count is five, we should see message displayed on five lines.\
 Then, pass the function to replicate. Feel free to use any function type that you'd like.
+
+### [Challenge Chapter 7](src/main/kotlin/challenges/chapter7)
+We have created a class named Bosco. We want to keep track of the number of instances that get created.\
+When the program begins, there should be zero. Each time we instantiate Bosco, the count should increase by one.\
+We aren't concerned about what happens if objects go out of scope. We only want to know how many instances of our Bosco class got instantiated.\
+Your implementation must include a show method that shows the number of instances created.\
+Test your class implementation against the provided code.
