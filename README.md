@@ -30,4 +30,4 @@ Your implementation must include a show method that shows the number of instance
 Test your class implementation against the provided code.
 
 ### [Challenge Chapter 8](src/main/kotlin/challenges/chapter8)
-In the resources folder, there is a file, thewhale.txt, write a function to read the file asynchronously and return its text.
+In the resources folder, there is a file, [the_whale.txt](src/test/resources/the_whale.txt), write a function to read the file asynchronously and return its text.
