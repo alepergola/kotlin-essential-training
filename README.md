@@ -15,3 +15,9 @@ Use what you know to render the collection without any duplicates.\
 In the resources directory there is a file sales.txt, which contains a series of floating point numbers, one on each line.\
 You must read the numbers in and add them to a list of doubles. \
 However, not all the numbers are good, you must filter out any invalid values and then display the list.\
+
+### [Challenge Chapter 6](src/main/kotlin/challenges/chapter6)
+We've written a function named _replicate_. The function accepts as its sole parameter a function which we must pass to it.\
+Read the function's definition and then create a function that matches the definition.\
+The function should print message to align ones for each value of count. So if count is five, we should see message displayed on five lines.\
+Then, pass the function to replicate. Feel free to use any function type that you'd like.
