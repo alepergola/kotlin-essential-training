@@ -10,3 +10,8 @@ The code currently executes and must run and return the same output after you im
 ### [Challenge Chapter 4](src/main/kotlin/challenges/chapter4)
 For this challenge, we have a list of strings, many of which are duplicates.\
 Use what you know to render the collection without any duplicates.\
+
+### [Challenge Chapter 5](src/main/kotlin/challenges/chapter5)
+In the resources directory there is a file sales.txt, which contains a series of floating point numbers, one on each line.\
+You must read the numbers in and add them to a list of doubles. \
+However, not all the numbers are good, you must filter out any invalid values and then display the list.\
